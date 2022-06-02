@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(14, 17, 17);/*rgb(65,74,76);*/
+  font-family: 'Mukta', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root {
   display: flex;
-  flex-direction: column;
+  justify-content: center;/*центрирует все элементы на страцах*/
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;/* НЕ ЛОМАЕТ АДАПТАЦИЮ*/
+  /*flex-direction: column;  ломает адаптацию*/
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+  background: rgb(14, 17, 17);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar__links {
+  margin-left: auto;
+  background: rgb(14, 17, 17);
+
 }
+
+.link {
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14pt;
+  color: yellowgreen;
+  background: rgb(14, 17, 17)
+}
+
+.link:hover {padding: 15px; background: yellowgreen; opacity: 90%; color: #0e1111; border-radius: 10px;}

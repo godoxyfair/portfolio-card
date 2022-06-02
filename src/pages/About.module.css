@@ -1,0 +1,28 @@
+
+p {
+    font-size: 18pt;
+}
+.aboutHeader {
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height: 2;
+    font-size: 20pt;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutImg {
+    order: 1;
+    display: flex;
+    margin-top: 10vh;
+    padding: 50px;
+
+}
