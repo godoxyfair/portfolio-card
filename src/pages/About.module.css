@@ -11,20 +11,63 @@ p {
     flex-direction: column;
     line-height: 2;
     font-size: 20pt;
-    padding: 15px;
+    padding: 50px;
+
 }
 
 .aboutText {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    opacity:0;
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation: show 2s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards;
+
 }
 
 .aboutImg {
 
     margin-top: 150px;
     border: 2px solid orange;
-    border-radius: 10px;
+    border-radius: 50px;
+    align-items: center;
+    animation: show 3s 1;
 
+}
+
+@keyframes show{
+
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+
+}
+
+.aboutHeaderMob {
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height: 2;
+    font-size: 20pt;
+    padding: 50px;
+}
+
+.aboutTextMob {
+    opacity:0;
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation: show 2s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards;
+}
+
+.aboutImgMob {
+    display: flex;
+    border: 2px solid orange;
+    border-radius: 50px;
+    animation: show 3s 1;
+    margin-left: 50px;
 }

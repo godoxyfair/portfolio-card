@@ -1,0 +1,124 @@
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    margin-top: 5px;
+    background: rgb(14, 17, 17);
+    position: sticky;
+}
+
+.navbar__links {
+    margin-left: auto;
+    background: rgb(14, 17, 17);
+
+}
+
+.link {
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14pt;
+    color: orange;
+    background: rgb(14, 17, 17);
+    font-weight: bold;
+
+}
+
+.link:hover {
+    padding: 10px 20px 10px 20px;
+    background: orange;
+    opacity: 90%;
+    color: #0e1111;
+    border-radius: 10px;
+}
+
+/* скрываем чекбокс */
+.menuToggle {
+    opacity: 0;
+    margin-left: -100%;
+}
+/* стилизуем кнопку */
+.menuBtn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+/* добавляем "гамбургер" */
+.menuBtn > span,
+.menuBtn > span::before,
+.menuBtn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+.menuBtn > span::before {
+    content: '';
+    top: -8px;
+}
+.menuBtn > span::after {
+    content: '';
+    top: 8px;
+}
+
+
+/* контейнер меню */
+.menuBox {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+}
+/* элементы меню */
+.menuItem {
+    display: block;
+    padding: 12px 24px;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menuItem:hover {
+    background-color: #CFD8DC;
+}
+
+.menuToggle:checked ~ .menuBtn > span {
+    transform: rotate(45deg);
+}
+.menuToggle:checked ~ .menuBtn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+.menuToggle:checked ~ .menuBtn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+.menuToggle:checked ~ .menuBox {
+    visibility: visible;
+    left: 0;
+}
+
+
+
+
+

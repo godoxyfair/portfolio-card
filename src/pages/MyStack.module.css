@@ -10,8 +10,24 @@ p {
     text-align: center;
     font-size: 20pt;
     align-items: baseline;
+    opacity:0;
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation: show 2s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards;
 }
 
 .skillsLink {
     margin-top: 30px;
+    animation: show 3s 1;
+}
+
+@keyframes show{
+
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+
 }
