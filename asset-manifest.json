@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/godoxyfair/portfolio-card/static/css/main.a2e9a47f.css",
-    "main.js": "/godoxyfair/portfolio-card/static/js/main.5299602a.js",
-    "static/media/Screen Shot 2022-06-09 at 2.50.27 PM.png": "/godoxyfair/portfolio-card/static/media/Screen Shot 2022-06-09 at 2.50.27 PM.1a1a1e28b1edc8544b7f.png",
-    "static/media/myfoto1.png": "/godoxyfair/portfolio-card/static/media/myfoto1.706bec2b7c49bc0819b6.png",
-    "static/media/Background (3).png": "/godoxyfair/portfolio-card/static/media/Background (3).8614929c560027a741b0.png",
-    "static/media/icons8-github.svg": "/godoxyfair/portfolio-card/static/media/icons8-github.ef51ce8caba5fbbd80fd54a6343982b5.svg",
-    "index.html": "/godoxyfair/portfolio-card/index.html",
-    "main.a2e9a47f.css.map": "/godoxyfair/portfolio-card/static/css/main.a2e9a47f.css.map",
-    "main.5299602a.js.map": "/godoxyfair/portfolio-card/static/js/main.5299602a.js.map"
+    "main.css": "/portfolio-card/static/css/main.a2e9a47f.css",
+    "main.js": "/portfolio-card/static/js/main.c0dcfb92.js",
+    "static/media/Screen Shot 2022-06-09 at 2.50.27 PM.png": "/portfolio-card/static/media/Screen Shot 2022-06-09 at 2.50.27 PM.1a1a1e28b1edc8544b7f.png",
+    "static/media/myfoto1.png": "/portfolio-card/static/media/myfoto1.706bec2b7c49bc0819b6.png",
+    "static/media/Background (3).png": "/portfolio-card/static/media/Background (3).8614929c560027a741b0.png",
+    "static/media/icons8-github.svg": "/portfolio-card/static/media/icons8-github.ef51ce8caba5fbbd80fd54a6343982b5.svg",
+    "index.html": "/portfolio-card/index.html",
+    "main.a2e9a47f.css.map": "/portfolio-card/static/css/main.a2e9a47f.css.map",
+    "main.c0dcfb92.js.map": "/portfolio-card/static/js/main.c0dcfb92.js.map"
   },
   "entrypoints": [
     "static/css/main.a2e9a47f.css",
-    "static/js/main.5299602a.js"
+    "static/js/main.c0dcfb92.js"
   ]
 }
