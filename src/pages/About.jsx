@@ -14,7 +14,7 @@ const About = () => {
     //    return isTablet ? children : null
    // }
     const Mobile = ({ children }) => {
-        const isMobile = useMediaQuery({ maxWidth: 750 })
+        const isMobile = useMediaQuery({ maxWidth: 400 })
         return isMobile ? children : null
     }
    // const Default = ({ children }) => {
