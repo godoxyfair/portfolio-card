@@ -43,7 +43,7 @@ const ProjectField = (props) => {
             </Desktop>
             <Mobile>
                 <h1 className={classes.prjHeader}>Stickers</h1>
-                <div style={{ marginTop: '20px', color:'white'}}>
+                <div style={{ color:'white'}}>
                     <div className={classes.fistPrjMobile}>
                         <p className={classes.aboutFistPrjMobile}> I made this project as a React learning. In it I used react-router-dom.
                             The application loads information into posts with JSON Placeholder, splits all loaded posts into 10 pages.
