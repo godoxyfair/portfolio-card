@@ -19,5 +19,4 @@ const MobMenu = ({header, active, setActive}) => {
     );
 };
 
-
 export default MobMenu;

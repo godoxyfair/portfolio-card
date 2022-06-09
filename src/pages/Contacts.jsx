@@ -6,10 +6,10 @@ import github from '../componets/images/icons8-github.svg'
 const Contacts = () => {
     return (
         <div className={classes.myContacts}>
-            <h1 style={{ borderBottom: '2px solid orange', borderRadius: '10px', padding: '5px', margin: '5px'}}>Contacts</h1>
-            <p>You can contact me <a className="contactLink"
+            <h1 style={{ borderBottom: '2px solid orange', borderRadius: '10px', padding: '5px', margin: '10px'}}>Contacts</h1>
+            <p>You can contact me <a
                                      href="mailto:maigumenova@gmail.com">maigumenova@gmail.com</a></p>
-            <p>or phone number <a className="contactLink" href="tel:+79776412167">+7(977)641-21-67</a></p>
+            <p>or phone number <a href="tel:+79776412167">+7(977)641-21-67</a></p>
             <h2 style={{color: 'orange'}}>Social</h2>
             <div className={classes.contactsLinks}>
             <p > <a href="https://www.facebook.com/profile.php?id=100045231307108" target="_blank" rel="noreferrer">

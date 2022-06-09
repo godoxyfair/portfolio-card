@@ -51,7 +51,6 @@ p {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    line-height: 2;
     font-size: 18pt;
     padding: 30px;
 }
@@ -66,6 +65,7 @@ p {
     animation: show 2s 1; /* Указываем название анимации, её время и количество повторов*/
     animation-fill-mode: forwards;
     z-index: 0;
+    font-size: 18pt;
 }
 
 .aboutImgMob {
