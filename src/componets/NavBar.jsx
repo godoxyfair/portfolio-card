@@ -2,6 +2,8 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import classes from "./NavBar.module.css";
 import {useMediaQuery} from "react-responsive";
+import NavBarMobile from "./UI/NavBarMobile";
+
 
 const NavBar = () => {
     const Desktop = ({ children }) => {
@@ -25,18 +27,7 @@ const NavBar = () => {
                     </div>
                     </Desktop>
                     <Mobile>
-                        <div className={classes.hamburgerMenu}>
-                            <input className={classes.menuToggle} type="checkbox"/>
-                            <label className={classes.menuBtn} form={classes.menuToggle}>
-                                <span></span>
-                            </label>
-                            <div className={classes.menuBox}>
-                                <Link className={classes.menuItem} to="/about">About</Link>
-                                <Link className={classes.menuItem} to="/stack">Stack</Link>
-                                <Link className={classes.menuItem} to="/project">Project</Link>
-                                <Link className={classes.menuItem} to="/contacts">Contacts</Link>
-                            </div>
-                        </div>
+                        <NavBarMobile/>
                     </Mobile>
                 </div>
     );

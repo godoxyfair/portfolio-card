@@ -1,0 +1,40 @@
+@keyframes show{
+
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+
+}
+
+.myContacts {
+    opacity:0;
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation: show 2s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards;
+    margin-top: 10vh;
+    color: white;
+    line-height: 2;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20pt;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    padding: 10px;
+}
+
+.contactsLinks {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

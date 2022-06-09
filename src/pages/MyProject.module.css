@@ -1,0 +1,18 @@
+@keyframes show{
+
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+
+}
+
+.myProject {
+    opacity:0;
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation: show 2s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards;
+}
+

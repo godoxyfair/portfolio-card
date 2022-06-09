@@ -5,7 +5,7 @@ p {
 }
 .aboutHeader {
     color: white;
-    margin-top: 100px;
+    margin-top: 10vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -48,20 +48,24 @@ p {
 
 .aboutHeaderMob {
     color: white;
-    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     line-height: 2;
-    font-size: 20pt;
-    padding: 50px;
+    font-size: 18pt;
+    padding: 30px;
 }
 
 .aboutTextMob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     opacity:0;
     transition: 1s; /*Скорость перехода состояния элемента*/
     animation: show 2s 1; /* Указываем название анимации, её время и количество повторов*/
     animation-fill-mode: forwards;
+    z-index: 0;
 }
 
 .aboutImgMob {
@@ -69,5 +73,5 @@ p {
     border: 2px solid orange;
     border-radius: 50px;
     animation: show 3s 1;
-    margin-left: 50px;
+
 }

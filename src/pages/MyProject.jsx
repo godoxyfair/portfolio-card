@@ -2,14 +2,12 @@ import React from 'react';
 import MyButton from "../componets/UI/button/MyButton";
 import ProjectField from "../componets/UI/ProjectField";
 import About from "./About";
+import classes from "./MyProject.module.css";
 
 const MyProject = () => {
     return (
-        <div>
+        <div className={classes.myProject}>
             <ProjectField/>
-            <MyButton>Preview</MyButton>
-            <ProjectField/>
-            <MyButton>Preview</MyButton>
 
         </div>
     );

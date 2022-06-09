@@ -4,7 +4,7 @@ import classes from "./MyStack.module.css";
 const MyStack = () => {
     return (
         <div className={classes.skills}>
-            <h1 style={{ borderBottom: '2px solid orange', borderRadius: '10px', padding: '5px'}}>Skills</h1>
+            <h1 style={{ borderBottom: '2px solid orange', borderRadius: '10px', padding: '5px', margin: '5px'}}>Skills</h1>
             <p>I've been learning to code for 6 month, after switching careers.</p>
             <h2 style={{color: 'orange'}}>STACK</h2>
             <p className={classes.skillsLink}>
