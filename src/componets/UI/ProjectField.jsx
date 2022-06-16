@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import MyProject from "../../pages/MyProject";
 import MyButton from "./button/MyButton";
-import project1 from '../images/Screen Shot 2022-06-09 at 2.50.27 PM.png'
+import project1 from '../images/Screen Shot  AM.png'
 import classes from './ProjectField.module.css';
 import {useMediaQuery} from "react-responsive";
 
