@@ -9,6 +9,9 @@ Demo: https://godoxyfair.github.io/portfolio-card/
 В процессе работы над проектом, были изучены основные принципы работы с фрейворком
 
 <img src="src/componets/images/preview.png" alt="preview"/>
+
+
+
 ## Project setup
 ```
 npx create-react-app . 
