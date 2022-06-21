@@ -5,7 +5,7 @@ const MyStack = () => {
     return (
         <div className={classes.skills}>
             <h1 style={{ borderBottom: '2px solid orange', borderRadius: '10px', padding: '5px', margin: '5px'}}>Skills</h1>
-            <p>I've been learning to code for 6 month, after switching careers.</p>
+            <p>After switching careers I've been learning to code for 6 month.</p>
             <h2 style={{color: 'orange'}}>STACK</h2>
             <p className={classes.skillsLink}>
                     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>

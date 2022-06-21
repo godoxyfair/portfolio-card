@@ -20,7 +20,7 @@ const ProjectField = (props) => {
     //    return isTablet ? children : null
     // }
     const Mobile = ({ children }) => {
-        const isMobile = useMediaQuery({ maxWidth: 400 })
+        const isMobile = useMediaQuery({ maxWidth: 750 })
         return isMobile ? children : null
     }
 
@@ -30,10 +30,10 @@ const ProjectField = (props) => {
             <h1 className={classes.prjHeader}>Stickers</h1>
             <div style={{ marginTop: '20px', color:'white'}}>
                 <div className={classes.fistPrj}>
-                <p className={classes.aboutFistPrj}> I made this project as a React learning. In it I used react-router-dom.
-                    The application loads information into posts with JSON Placeholder, splits all loaded posts into 10 pages.
-                    Each post can be deleted and comments to it can be viewed. You can also create a new post and add it to the page.
-                    The application implements post sorting and search. The application is decomposed into various React components. </p>
+                <p className={classes.aboutFistPrj}> I did this project while learning React. I implemented it with react-router-dom.
+                    The app uploads information to the posts using JSON Placeholder, splits all the uploaded posts into 10 pages.
+                    Each post can be deleted and comments on it can be viewed. You can also create a new post and add it to the page.
+                    Sorting and searching is implemented in the app. The application is decomposed into different components of React. </p>
                 <a href="src/componets/UI/ProjectFields/ProjectField" target="_blank" rel="noreferrer">
                     <img className={classes.fistImg} src={project1} width="450" height="383" /></a>
                 </div>
@@ -43,10 +43,10 @@ const ProjectField = (props) => {
                 <h1 className={classes.prjHeader}>Stickers</h1>
                 <div style={{ color:'white'}}>
                     <div className={classes.fistPrjMobile}>
-                        <p className={classes.aboutFistPrjMobile}> I made this project as a React learning. In it I used react-router-dom.
-                            The application loads information into posts with JSON Placeholder, splits all loaded posts into 10 pages.
-                            Each post can be deleted and comments to it can be viewed. You can also create a new post and add it to the page.
-                            The application implements post sorting and search. The application is decomposed into various React components. </p>
+                        <p className={classes.aboutFistPrjMobile}>I did this project while learning React. I implemented it with react-router-dom.
+                            The app uploads information to the posts using JSON Placeholder, splits all the uploaded posts into 10 pages.
+                            Each post can be deleted and comments on it can be viewed. You can also create a new post and add it to the page.
+                            Sorting and searching is implemented in the app. The application is decomposed into different components of React. </p>
                         <a href="src/componets/UI/ProjectFields/ProjectField" target="_blank" rel="noreferrer">
                             <img className={classes.fistImgMobile} src={project1} width="300" height="255" /></a>
                     </div>

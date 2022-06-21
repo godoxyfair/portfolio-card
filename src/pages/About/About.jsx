@@ -13,7 +13,7 @@ const About = () => {
     //    return isTablet ? children : null
    // }
     const Mobile = ({ children }) => {
-        const isMobile = useMediaQuery({ maxWidth: 400 })
+        const isMobile = useMediaQuery({ maxWidth: 748 })
         return isMobile ? children : null
     }
    // const Default = ({ children }) => {
@@ -26,9 +26,9 @@ const About = () => {
         <Desktop>
         <div className={classes.aboutText}>
             <div className={classes.aboutHeader}>
-                <h2 style={{borderBottom: '2px solid orange', borderRadius: '10px'}}>Hi, I am Marta.</h2>
-                <h1 style={{color: 'orange'}}>Junior Front-end Developer</h1>
-                <p>I am a Javascript developer with a degree in engineering.
+                <h2 style={{borderBottom: '2px solid orange', borderRadius: '10px'}}>Hi, my name is Marta.</h2>
+                <h1 style={{color: 'orange'}}>Junior Frontend Developer</h1>
+                <p>I am a Javascript programmer with a degree in engineering.
                     <br/>
                     I would love it if you check out my projects.</p>
             </div>
@@ -39,8 +39,8 @@ const About = () => {
                 <div className={classes.aboutTextMob}>
                     <div className={classes.aboutHeaderMob}>
                         <h2 style={{borderBottom: '2px solid orange', borderRadius: '10px'}}>Hi, I am Marta.</h2>
-                        <h1 style={{color: 'orange'}}>Junior Front-end Developer</h1>
-                        <p>I am a Javascript developer with a degree in engineering.
+                        <h1 style={{color: 'orange'}}>Junior Frontend Developer</h1>
+                        <p>I am a Javascript programmer with a degree in engineering.
                             <br/>
                             I would love it if you check out my projects.</p>
                     </div>
