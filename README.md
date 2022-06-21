@@ -2,7 +2,7 @@
 Demo: https://godoxyfair.github.io/portfolio-card/
 
 ## Портфолио проект
-## Использован фреймворк React JS
+## Фреймворк React JS
 
 Так же использованы react-router-dom, hooks
 
