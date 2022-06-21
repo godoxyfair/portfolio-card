@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import classes from "./NavBarMobile.module.css";
-import MobMenu from "./MobMenu";
+import MobMenu from "../MobMenu";
 
 const NavBarMobile = () => {
     const [menuActive, setMenuActive] = useState(false)

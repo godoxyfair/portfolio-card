@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from "./Contacts.module.css";
-import github from '../componets/images/icons8-github.svg'
+import github from '../../componets/images/icons8-github.svg'
 
 
 const Contacts = () => {
@@ -15,7 +15,7 @@ const Contacts = () => {
             <p > <a href="https://www.facebook.com/profile.php?id=100045231307108" target="_blank" rel="noreferrer">
                 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="60" height="60" /></a>
                 <a href="https://www.github.com/godoxyfair" target="_blank" rel="noreferrer"><img src={github} width="60" height="60" /></a>
-                <a href="https://www.linkedin.com/in/marta-igumenova-2302a1238/" target="_blank" rel="noreferrer">
+                <a href="src/pages/Contact/Contacts" target="_blank" rel="noreferrer">
                     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="60" height="60" /></a>
             </p>
         </div>

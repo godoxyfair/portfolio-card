@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from "./About.module.css";
-import Backgroud from '../componets/images/Background (3).png'
-import myFoto from '../componets/images/myfoto1.png'
+import myFoto from '../../componets/images/myfoto1.png'
 import { useMediaQuery } from 'react-responsive'
 
 const About = () => {

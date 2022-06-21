@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
-import MyProject from "../../pages/MyProject";
-import MyButton from "./button/MyButton";
-import project1 from '../images/Screen Shot  AM.png'
+import project1 from '../../images/Screen Shot  AM.png'
 import classes from './ProjectField.module.css';
 import {useMediaQuery} from "react-responsive";
 
@@ -36,7 +34,7 @@ const ProjectField = (props) => {
                     The application loads information into posts with JSON Placeholder, splits all loaded posts into 10 pages.
                     Each post can be deleted and comments to it can be viewed. You can also create a new post and add it to the page.
                     The application implements post sorting and search. The application is decomposed into various React components. </p>
-                <a href="https://godoxyfair.github.io/react-trainer-prj/" target="_blank" rel="noreferrer">
+                <a href="src/componets/UI/ProjectFields/ProjectField" target="_blank" rel="noreferrer">
                     <img className={classes.fistImg} src={project1} width="450" height="383" /></a>
                 </div>
                 </div>
@@ -49,7 +47,7 @@ const ProjectField = (props) => {
                             The application loads information into posts with JSON Placeholder, splits all loaded posts into 10 pages.
                             Each post can be deleted and comments to it can be viewed. You can also create a new post and add it to the page.
                             The application implements post sorting and search. The application is decomposed into various React components. </p>
-                        <a href="https://godoxyfair.github.io/react-trainer-prj/" target="_blank" rel="noreferrer">
+                        <a href="src/componets/UI/ProjectFields/ProjectField" target="_blank" rel="noreferrer">
                             <img className={classes.fistImgMobile} src={project1} width="300" height="255" /></a>
                     </div>
                 </div>

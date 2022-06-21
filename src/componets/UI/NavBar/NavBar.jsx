@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import classes from "./NavBar.module.css";
 import {useMediaQuery} from "react-responsive";
-import NavBarMobile from "./UI/NavBarMobile";
+import NavBarMobile from "./NavBarMobile";
 
 
 const NavBar = () => {

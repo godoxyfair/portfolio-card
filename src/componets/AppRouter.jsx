@@ -1,9 +1,9 @@
 import React from "react";
 import {Route, Routes} from "react-router-dom";
-import About from "../pages/About";
-import MyStack from "../pages/MyStack";
-import MyProject from "../pages/MyProject";
-import Contacts from "../pages/Contacts";
+import About from "../pages/About/About";
+import MyStack from "../pages/Stack/MyStack";
+import MyProject from "../pages/Project/MyProject";
+import Contacts from "../pages/Contact/Contacts";
 
 const AppRouter = () => {
     return (

@@ -1,7 +1,5 @@
 import React from 'react';
-import MyButton from "../componets/UI/button/MyButton";
-import ProjectField from "../componets/UI/ProjectField";
-import About from "./About";
+import ProjectField from "../../componets/UI/ProjectFields/ProjectField";
 import classes from "./MyProject.module.css";
 
 const MyProject = () => {
